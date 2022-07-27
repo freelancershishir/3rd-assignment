@@ -1,6 +1,29 @@
 /* mobile device */
-@media screen and (max-width: 480px) { 
+@media screen and (min-width: 320px) and (max-width:767px) { 
     .register button{
         display: none;
+    }
+    .trainee-carousel h1{
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+    }
+    .trainee-carousel p{
+        font-size:16px;
+        margin-bottom: 20px;
+    }
+    .trainee-carousel button{
+        padding: 10px 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .register button{
+        display: none;
+    }
+    .trainee-carousel h1{
+        font-size: 3rem;
+    }
+    .trainee-carousel button{
+        padding: 15px 30px;
     }
 }

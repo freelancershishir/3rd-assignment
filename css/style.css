@@ -10,43 +10,76 @@
 }
 
 /* navbar section styles */
-.logo-name a, 
-.logo-name a:hover{
+.logo-name, 
+.logo-name:hover{
     color: #289BDE;
     font-size: 27px;
     font-weight: 700;
-    position: relative;
 }
-.logo-name a::after{
-    content: '';
-    position: absolute;
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: #FF3847;
-    top:25px;
-    margin-left: 2px;
-}
+
 .register button{
     font-weight: 600;
-    padding: 15px 35px;
+    padding: 15px 50px;
     color: #289BDE;
     font-size: 20px;
     border-color: #289BDE;
 }
-.trainee-nav{
+.trainee-nav li a{
     font-size: 18px;
     font-weight: 500;
     color:#4A4A4A ;
+    transition: all .3s ease;
 }
+.trainee-nav li a:hover{
+    color:#289BDE ;
+}
+
 
 /* banner */
 .trainee-banner{
-    height: 700px;
+    height: 100%;
     overflow: hidden;
     border-radius: 7px;
-    margin-top: 20px;
+    margin-top: 15px;
+   position: relative;
+}
+.trainee-banner::before{
+    content: '';
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    z-index: 1;
+    height: 100%;
+}
+.trainee-carousel {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    z-index: 999;
 }
 .trainee-banner img{
-    height: 100%;
+    height: 700px;
+    width: 100%;
+}
+.trainee-carousel h1{
+    font-size: 3.9rem;
+    margin-bottom: 20px;
+}
+.trainee-carousel p{
+    font-size:18px;
+    margin-bottom: 20px;
+}
+.trainee-carousel button{
+    font-weight: 600;
+    padding: 15px 35px;
+    background-color:#289BDE;
+    color: #fff;
+    font-size: 20px;
+    transition: all .3s;
+}
+.trainee-carousel button:hover{
+    background-color: #39a6dc;
 }
