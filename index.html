@@ -12,9 +12,7 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/28ec540607.js" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- responsive -->
@@ -130,13 +128,16 @@
     </section>
 
     <!-- Popular Courses Section -->
-    <section class="popular my-5">
+    <section class="popular course-section">
         <div class="container">
-            <h1 class="heading text-center">
-                Discover Our Popular Courses
-            </h1>
-            <p class="text-center">It is a long established fact that a reader will be distracted by the readable
-                content of a page when looking at its layout.</p>
+            <div class="popular-heading">
+                <h1 class="text-center">
+                    Discover Our Popular Courses
+                </h1>
+                <p class="text-center">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
+            </div>
+
             <div class="row">
                 <div class="col-lg-6 col-md-12 popular-wrapper">
                     <div class="popular-course d-flex border my-4 rounded">
@@ -202,6 +203,231 @@
         </div>
 
     </section>
+
+    <!-- Explore section -->
+    <section class="container explore-section">
+        <div class="explore d-flex align-items-center rounded">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <img class="img-fluid" src="images/working.png" alt="working">
+                </div>
+                <div class="col-lg-6 col-md-12 d-flex align-items-center">
+                    <div class="explore-content px-5">
+                        <h3>
+                            Explore The elearning Institute
+                        </h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour, or
+                            randomised words which don't look even slightly believable. If you are going
+                            to use a passage of Lorem Ipsum, you need to be sure. <br><br>
+                            Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                            generators on the Internet tend to repeat predefined.</p>
+
+                        <div class="explore-info-wrapper d-flex justify-content-between my-5">
+                            <div class="explore-info">
+                                <h1>3.2K+</h1>
+                                <span>Online Course</span>
+                            </div>
+                            <div class="explore-info">
+                                <h1>600+</h1>
+                                <span>Expert member</span>
+                            </div>
+                            <div class="explore-info">
+                                <h1>1K+</h1>
+                                <span>Rating & Review</span>
+                            </div>
+                        </div>
+                        <div class="explore-btn my-3">
+                            <button class="btn btn-primary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Ready to join Section -->
+    <Section class="container">
+        <div class="row ready-to-join justify-content-between align-items-center text-center text-lg-start p-5 rounded">
+            <div class="col-lg-9">
+                <h3>Ready to join?</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    when
+                    looking at its layout.</p>
+            </div>
+            <div class="col-lg-3">
+                <button class="btn btn-ready" data-bs-toggle="modal" data-bs-target="#register">
+                    Register Now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Please Registration Here!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="row mb-3">
+                                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="inputEmail3">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="inputPassword3">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="inputPassword4" class="col-sm-2 col-form-label">Confirm
+                                            Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-10 offset-sm-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                <label class="form-check-label" for="gridCheck1">
+                                                    Accept the Terms & Condition
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+
+    <!-- Students section -->
+    <section class="container students">
+        <div class="section-heading my-5">
+            <h2>Meet Our Seccessfull Students</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-3 students-content">
+                <div class="student-img">
+                    <img class="img-fluid" src="images/student/student-1.png" alt="">
+                </div>
+                <div class="border rounded-bottom p-3">
+                    <h4>Awlad Hossain</h4>
+                    <p>UIUX Designer</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-3 students-content ">
+                <div class="student-img">
+                    <img class="img-fluid" src="images/student/student-2.png" alt="">
+                </div>
+                <div class="border rounded-bottom p-3">
+                    <h4>Jannatul Islam</h4>
+                    <p>Motion Design</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-3 students-content">
+                <div class="student-img">
+                    <img class="img-fluid" src="images/student/student-3.png" alt="">
+                </div>
+                <div class="border rounded-bottom p-3">
+                    <h4>Imran Hossain</h4>
+                    <p>Graphic Designer</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-3 students-content ">
+                <div class="student-img">
+                    <img class="img-fluid" src="images/student/student-4.png" alt="">
+                </div>
+                <div class="border rounded-bottom p-3">
+                    <h4>Nishi Akter</h4>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+        </div>
+        <div class="student-all py-4">
+            <button type="button" class="btn student-btn d-flex mx-auto">View All</button>
+        </div>
+    </section>
+
+    <!-- Student Feedback Section -->
+
+    <section class="container feedback">
+        <div class="feedback-heading">
+            <h1 class="text-center">
+                Some Students Feedback
+            </h1>
+            <p class="text-center">It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 border rounded p-4">
+                <div class="quotation d-flex justify-content-between my-2">
+                    <img src="images/comma.png" alt="">
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered alteration in some form, by injected
+                    humour, or randomised words which don't look even slightly
+                    believable. If you are going to use a passage of Lorem.</p>
+                <div class="feedback-students d-flex align-items-center py-2">
+                    <img class="img-fluid" src="images/student/student-1.png" alt="">
+                    <div class="student-name mx-3">
+                        <h5>Awlad Hossain</h5>
+                        <p>UIUX Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 border rounded p-4">
+                <div class="quotation d-flex justify-content-between my-2">
+                    <img src="images/comma.png" alt="">
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected
+                    humour, or randomised words which don't look even slightly
+                    believable. If you are going to use a passage of Lorem.</p>
+                <div class="feedback-students d-flex align-items-center py-2">
+                    <img class="img-fluid" src="images/student/student-1.png" alt="">
+                    <div class="student-name mx-3">
+                        <h5>Awlad Hossain</h5>
+                        <p>UIUX Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 

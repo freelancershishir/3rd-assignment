@@ -1,5 +1,5 @@
 /* mobile device */
-@media screen and (min-width: 320px) and (max-width:767px) { 
+@media screen and (min-width: 480px) and (max-width:767px) { 
     .register button{
         display: none;
     }
@@ -17,12 +17,21 @@
     .tab-hidden{
         display: none;
     }
+    .popular-heading{
+        width: 100%;
+    }
+    .popular-heading h1{
+        font-size: 35px;
+    }
     .popular-course{
         flex-direction: column;
     }
     .popular-course img{
         height: 300px;
         width: 100%;
+    }
+    .explore-content h3{
+        margin-top: 50px;
     }
 }
 
@@ -42,5 +51,14 @@
     .popular-course img{
         height: 220px;
         width: 100%;
+    }
+    .popular-heading{
+        width: 100%;
+    }
+    .popular-heading h1{
+        font-size: 40px;
+    }
+    .explore-content h3{
+        margin-top: 50px;
     }
 }

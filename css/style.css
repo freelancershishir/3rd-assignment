@@ -86,6 +86,20 @@
 
 
 /* Popular Course Section */
+.course-section{
+    margin-top: 70px;
+}
+.popular-heading{
+    width: 50%;
+    margin: 0 auto;
+}
+.popular-heading h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+.popular-heading p{
+    font-size: 18px;
+}
 .course-content span{
     font-size: 18px;
     color: #289BDE;
@@ -101,4 +115,101 @@
 }
 .course-btn button:hover{
     background-color: #248fc4;
+}
+
+/* Explore section */
+.explore-section{
+    margin-top:100px;  
+}
+.explore{
+    background-color: #F4FAFD;
+}
+.explore-section img{
+    height: 100%;
+    width: 100%;
+}
+.explore-content h3{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.explore-btn button{
+    font-weight: 600;
+    padding: 15px 35px;
+    background-color:#289BDE;
+    color: #fff;
+    font-size: 20px;
+    transition: all .3s;
+}
+.explore-btn button:hover{
+    background-color: #248fc4;
+}
+
+/* Ready to join section */
+.ready-to-join{
+    background-color: #248fc4;
+    margin-top: 100px;
+    color: #fff;
+    height:300px;
+}
+
+.btn-ready{
+    font-weight: 600;
+    padding: 15px 35px;
+    background-color:#fff;
+    color: #248fc4;
+    font-size: 1.3rem;
+    transition: all .3s;
+}
+
+/* modal */
+.modal-body,
+.modal-title{
+    color: #000;
+}
+
+/* Students Section */
+.students{
+    margin-top: 100px;
+}
+.students img{
+    width: 100%;
+}
+.student-img{
+    width: auto;
+    overflow: hidden;
+}
+.student-img img{
+    transition: all .5s;
+
+}
+.student-img:hover img{
+    transform: scale(1.1);
+}
+.student-btn{
+    font-weight: 600;
+    padding: 15px 40px;
+    background-color:#289BDE;
+    color: #fff;
+    font-size: 1.3rem;
+    transition: all .3s;
+}
+.student-btn:hover{
+    background-color: #248fc4;
+    color: #fff;
+}
+
+/* Feedback Section */
+.feedback{
+    margin-top: 100px;
+}
+
+.ratings i{
+    font-size: 20px;
+    color: orange;
+}
+.feedback-students img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
