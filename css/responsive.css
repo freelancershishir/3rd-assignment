@@ -1,4 +1,4 @@
-/* mobile device */
+/* For Mobile Devices */
 @media screen and (min-width: 480px) and (max-width:767px) { 
     .register button{
         display: none;
@@ -33,7 +33,15 @@
     .explore-content h3{
         margin-top: 50px;
     }
+    .btn-ready{
+        padding: 10px 25px;
+    }
+    .companies{
+        display: none;
+    }
 }
+
+/* For Tablets Devices */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .register button{
@@ -60,5 +68,12 @@
     }
     .explore-content h3{
         margin-top: 50px;
+    }
+    .btn-ready{
+        padding: 10px 25px;
+    }
+
+    .companies{
+        display: none;
     }
 }

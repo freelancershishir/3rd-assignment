@@ -19,7 +19,7 @@
 
 .register button{
     font-weight: 600;
-    padding: 15px 50px;
+    padding: 11px 50px;
     color: #289BDE;
     font-size: 20px;
     border-color: #289BDE;
@@ -148,9 +148,11 @@
 /* Ready to join section */
 .ready-to-join{
     background-color: #248fc4;
-    margin-top: 100px;
     color: #fff;
     height:300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 .btn-ready{
@@ -208,8 +210,65 @@
     font-size: 20px;
     color: orange;
 }
-.feedback-students img{
+.img img{
     height: 50px;
     width: 50px;
     border-radius: 50%;
+}
+
+
+/* FAQ section */
+
+.faq{
+    margin-top: 100px;
+}
+.faq-heading{
+    margin-bottom: 50px;
+}
+
+/* Companies Section */
+.companies{
+    margin-top: 100px;
+}
+.companies h2{
+    margin-bottom: 50px;
+}
+
+/* Footer Section */
+
+.footer{
+    margin-top: 100px; 
+    background-color: #161616;
+    color: #fff;
+    padding: 80px 0;
+}
+.footer .footer-content .logo-name{
+    font-size: 50px;
+    display: block;
+    margin-bottom: 20px;
+}
+.footer .footer-content a{
+    color: #289BDE;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social i{
+    font-size: 18px;
+    background-color: #242424;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.social i:hover{
+    background-color: #248fc4;
 }
