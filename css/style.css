@@ -31,7 +31,7 @@
     transition: all .3s ease;
 }
 .trainee-nav li a:hover{
-    color:#289BDE ;
+    color:#248fc4 ;
 }
 
 
@@ -81,5 +81,24 @@
     transition: all .3s;
 }
 .trainee-carousel button:hover{
-    background-color: #39a6dc;
+    background-color: #248fc4;
+}
+
+
+/* Popular Course Section */
+.course-content span{
+    font-size: 18px;
+    color: #289BDE;
+    font-weight: 700;
+}
+.course-btn button{
+    font-weight: 600;
+    padding: 15px 35px;
+    background-color:#289BDE;
+    color: #fff;
+    font-size: 20px;
+    transition: all .3s;
+}
+.course-btn button:hover{
+    background-color: #248fc4;
 }
